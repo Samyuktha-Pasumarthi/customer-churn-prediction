@@ -87,8 +87,9 @@ Customer churn is a critical business problem where companies aim to identify cu
 - Matplotlib, Seaborn
 
 ---
+## 📁 Project Structure
 
-## Project Structure
+
 customer-churn-prediction/
 │
 ├── data/
