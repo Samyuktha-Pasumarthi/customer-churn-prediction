@@ -92,19 +92,19 @@ Customer churn is a critical business problem where companies aim to identify cu
 customer-churn-prediction/
 │
 ├── data/
-│   ├── raw/
-│   │   └── Bank Customer Churn Prediction.csv
-│   ├── processed/
-│   │   └── processed_data.csv
+│ ├── raw/
+│ │ └── Bank Customer Churn Prediction.csv
+│ ├── processed/
+│ │ └── processed_data.csv
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
-│   ├── 04_model_explainability.ipynb
+│ ├── 01_eda.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ ├── 03_model_training.ipynb
+│ ├── 04_model_explainability.ipynb
 │
 ├── models/
-│   └── best_churn_pipeline.pkl
+│ └── best_churn_pipeline.pkl
 │
 ├── requirements.txt
 ├── README.md
