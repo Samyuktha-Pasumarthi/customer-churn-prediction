@@ -4,13 +4,13 @@ An end-to-end machine learning project to predict customer churn using feature e
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Customer churn is a critical business problem where companies aim to identify customers likely to leave. This project builds a predictive model to classify customers as churned or not churned.
 
 ---
 
-## ⚙️ Project Pipeline
+## Project Pipeline
 
 1. **Exploratory Data Analysis (EDA)**
    - Data understanding and visualization
@@ -88,20 +88,27 @@ Customer churn is a critical business problem where companies aim to identify cu
 
 ---
 
-## 📁 Project Structure
-customer-churn/
+## Project Structure
+customer-churn-prediction/
 │
 ├── data/
-│ ├── processed_data.csv
-| ├── Bank Customer Churn Prediction.csv
-├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_training.ipynb
-│ ├── 04_model_explainability.ipynb 
-| ├──best_churn_pipeline.pkl
+│   ├── raw/
+│   │   └── Bank Customer Churn Prediction.csv
+│   ├── processed/
+│   │   └── processed_data.csv
 │
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   ├── 04_model_explainability.ipynb
+│
+├── models/
+│   └── best_churn_pipeline.pkl
+│
+├── requirements.txt
 ├── README.md
+
 
 
 ---
